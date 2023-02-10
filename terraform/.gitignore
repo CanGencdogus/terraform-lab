@@ -1,0 +1,19 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+**.terraform.lock.hcl
+# Terraform directory
+.terraform/
+
+# Ignore any .out files produced by Terraform
+*.out
+
+# Etc
+*.swp
+*~
+.DS_Store
+.env
+node_modules/
